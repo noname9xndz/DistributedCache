@@ -11,9 +11,9 @@ public void ConfigureServices(IServiceCollection services)
 
 ```
 
-```
 + Use :
 
+```
 public class TestController : Controller
 {
      private readonly IDistributedCache _cache;
