@@ -2,14 +2,16 @@
 
 + Register : 
 
+```
 public void ConfigureServices(IServiceCollection services)
 {
        //Add Distributed Cache
        services.AddDistributedCacheFile(Configuration);
 }
 
---------------------------------------------------------
+```
 
+```
 + Use :
 
 public class TestController : Controller
@@ -20,3 +22,5 @@ public class TestController : Controller
          _cache = cache
      }
 }
+
+```
